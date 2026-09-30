@@ -53,7 +53,7 @@ require_once 'templates/header.php';
         <div class="row align-items-center mb-4">
             <div class="col-md-6 mb-3 mb-md-0">
                 <h4 class="fw-bold mb-1">
-                    <i class="bi bi-motherboard text-primary me-2"></i>Inventaris Hardware Komputer
+                    <i class="bi bi-motherboard text-success me-2"></i>Inventaris Hardware Komputer
                 </h4>
                 <p class="text-muted small mb-0">Total <?= count($daftar_produk); ?> item produk terdaftar</p>
             </div>
@@ -71,7 +71,7 @@ require_once 'templates/header.php';
                 </form>
 
                 <!-- Tombol Tambah Produk -->
-                <a href="create.php" class="btn btn-primary text-nowrap">
+                <a href="create.php" class="btn btn-success text-nowrap">
                     <i class="bi bi-plus-lg me-1"></i> Tambah Produk
                 </a>
             </div>
@@ -123,7 +123,7 @@ require_once 'templates/header.php';
                                 <td class="text-muted small">
                                     <i class="bi bi-truck me-1"></i><?= e($row['nama_supplier']); ?>
                                 </td>
-                                <td class="fw-bold text-primary">
+                                <td class="fw-bold text-success">
                                     <?= format_rupiah($row['harga']); ?>
                                 </td>
                                 <td class="text-center">

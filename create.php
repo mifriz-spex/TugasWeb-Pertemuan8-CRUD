@@ -58,7 +58,7 @@ require_once 'templates/header.php';
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card shadow-sm border-0">
-            <div class="card-header bg-primary text-white py-3">
+            <div class="card-header bg-success text-white py-3">
                 <h5 class="card-title mb-0">
                     <i class="bi bi-plus-circle me-2"></i>Form Tambah Produk Komputer
                 </h5>
@@ -125,7 +125,7 @@ require_once 'templates/header.php';
                         <a href="index.php" class="btn btn-outline-secondary">
                             <i class="bi bi-arrow-left me-1"></i>Kembali
                         </a>
-                        <button type="submit" class="btn btn-primary px-4">
+                        <button type="submit" class="btn btn-success px-4">
                             <i class="bi bi-save me-1"></i>Simpan Produk
                         </button>
                     </div>

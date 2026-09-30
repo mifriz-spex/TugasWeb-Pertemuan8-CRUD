@@ -31,7 +31,7 @@ require_once __DIR__ . '/../helpers/functions.php';
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
     <div class="container">
         <a class="navbar-brand" href="index.php">
-            <i class="bi bi-cpu-fill text-primary me-2"></i>KompuStore
+            <i class="bi bi-cpu-fill text-success me-2"></i>KompuStore
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
