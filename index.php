@@ -1,5 +1,5 @@
 <?php
-require_once 'config/Database.php';
+require_once 'config/database.php';
 require_once 'helpers/functions.php';
 
 $pdo = Database::getInstance()->getConnection();
